@@ -1,1 +1,5 @@
 sayari_env/*
+
+.scrapy
+
+__pycache__/
