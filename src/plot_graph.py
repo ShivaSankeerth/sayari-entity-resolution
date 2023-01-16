@@ -43,7 +43,7 @@ def draw_graph(G):
     plt.savefig('output/plot.png')
 
 if __name__ == '__main__':
-    with open('x_business.json', 'r') as f:
+    with open('data/x_business.json', 'r') as f:
         data = json.load(f)
     G = create_graph(data)
     draw_graph(G)

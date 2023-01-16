@@ -35,7 +35,7 @@ class XBusinessSpider(scrapy.Spider):
     @staticmethod
     def close(spider, reason):
         print('Closing here',spider.results)
-        with open('output/x_business.json', 'w') as f:
+        with open('data/x_business.json', 'w') as f:
             json.dump(spider.results, f)
     
 # run spider
